@@ -46,6 +46,17 @@ const Features = () => {
         alt=""
         className="w-full h-[20rem] md:h-[30rem] object-cover"
       />
+      <div className="flex flex-row gap-3 justify-between w-full px-12">
+        <button className="bg-[#003366]  py-3  w-full text-white rounded-lg cursor-pointer">
+          Find routes
+        </button>
+        <button className="bg-[#003366]  py-3 w-full  text-white rounded-lg cursor-pointer">
+          Find routes
+        </button>
+        <button className="bg-[#003366] py-3 w-full text-white rounded-lg cursor-pointer">
+          Find routes
+        </button>
+      </div>
     </main>
   );
 };

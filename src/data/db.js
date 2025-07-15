@@ -11,5 +11,5 @@ export const ourFeatures = [
     }, {
         img: transport, title: "Choose your commute", description: "Compare travel options including driving,transit and cycling."
     }, {
-        img: location, title: "Saved locations", description: "Save frequent destinations like home or work for quick access."
+        img: location, title: "Saved locations", description: "Save frequent destinations like home or work for quick access.."
     }]
