@@ -57,7 +57,7 @@ const WhyTransita = () => {
 
         {/* Right Column (1/3) */}
         <div
-          className="h-[40rem] bg-cover bg-center rounded-2xl text-white flex flex-col justify-end p-7"
+          className="h-full bg-cover bg-center rounded-2xl text-white flex flex-col justify-end p-7"
           style={{ backgroundImage: `url(${why1})` }}
         >
           <h2 className="text-2xl font-bold">Simple, powerful experience</h2>
