@@ -5,14 +5,16 @@ import signimg from "../assets/images/signimg.png";
 const Signup = () => {
   return (
     <>
-      <main className="max-w-[1500px] mx-auto flex flex-col md:grid md:grid-cols-2 items-center gap-5 md:gap-20 h-screen">
-        <div className="flex flex-col items-center gap-5 max-w-full order-2 md:order-1">
+      <main className="max-w-[1500px] mx-auto flex flex-col md:grid md:grid-cols-2 items-center gap-2 md:gap-20 h-screen">
+        <div className="flex flex-col items-center mt-2 gap-5 max-w-full order-2 md:order-1">
           <div className="flex flex-col gap-7 md:py-3 w-full md:px-20">
             <div className="hidden md:flex flex-row items-center gap-2">
               <img src={logo} alt="" className="w-10 h-10" />
               <span>Transita</span>
             </div>
-            <h1>Get started in minutes- create your account</h1>
+            <h1 className="text-gray-400">
+              Get started in minutes- create your account
+            </h1>
           </div>
 
           <form
@@ -55,13 +57,13 @@ const Signup = () => {
               />
             </span>
 
-            <button className="bg-[#003366] w-full mt-5 md:mt-20 py-3 md:py-4 text-white rounded-lg">
+            <button className="bg-[#003366] w-full mt-20 mb-5 py-4 text-white rounded-lg">
               Continue
             </button>
           </form>
         </div>
 
-        <div className="w-full h-screen order-1 ">
+        <div className="w-full md:h-screen order-1 ">
           <div className="flex flex-row items-center gap-1 justify-center py-3 md:hidden bg-[#003366]">
             <img src={logo} alt="" className="w-8 h-8" />
             <span className="text-white">Transita</span>
