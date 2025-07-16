@@ -6,7 +6,7 @@ import map from "../assets/images/map.png";
 
 const Features = () => {
   return (
-    <main className="max-w-[500px] md:max-w-[1250px] mx-auto px-4 md:px-12 py-5 md:py-10 items-center flex flex-col gap-10">
+    <main className="max-w-[1250px] md:max-w-[1250px] mx-auto px-4 md:px-12 py-5 md:py-10 items-center flex flex-col gap-10">
       <h1 className="text-2xl">Our feautres</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 items-center gap-2 md:gap-5">
         {ourFeatures.map((updateFeatures, index) => (

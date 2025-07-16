@@ -6,7 +6,7 @@ const Phoneheader = () => {
   const [menu, setMenu] = useState(false);
   return (
     <main
-      className="bg-center py-10 relative flex flex-col gap-10 md:hidden lg:hidden max-w-[500px] px-5 mx-auto font-manrope"
+      className="bg-center py-10 relative flex flex-col gap-10 md:hidden lg:hidden max-w-[1250px] px-5 mx-auto font-manrope"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="flex ">
