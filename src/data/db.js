@@ -9,13 +9,17 @@ import test3 from "../assets/images/testi3.jpg"
 
 export const ourFeatures = [
     {
-        img: parking, title: "Find parking faster", description: "See available parking spots in real time,by location and availability."
+        img: parking, title: "Find parking faster", description: "See available parking spots in real time,by location and availability.",
+        bg: "#F5F5E8"
     }, {
-        img: warning, title: "Real-time Traffic insights", description: "Get up-to-date traffic conditions to avoid congestion on your drive."
+        img: warning, title: "Real-time Traffic insights", description: "Get up-to-date traffic conditions to avoid congestion on your drive.",
+        bg: "#FFE6E6"
     }, {
-        img: transport, title: "Choose your commute", description: "Compare travel options including driving,transit and cycling."
+        img: transport, title: "Choose your commute", description: "Compare travel options including driving,transit and cycling.",
+        bg: "#E6F0FA"
     }, {
-        img: location, title: "Saved locations", description: "Save frequent destinations like home or work for quick access.."
+        img: location, title: "Saved locations", description: "Save frequent destinations like home or work for quick access..",
+        bg: "#D9D9D9"
     }]
 
 export const questionData = [

@@ -17,7 +17,7 @@ const WhyTransita = () => {
           {/* Two Half-Width Sections */}
           <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
             <div
-              className="h-64 bg-cover bg-center rounded-2xl text-white p-5 flex flex-col justify-end"
+              className="h-64 bg-cover bg-center rounded-2xl text-white p-5 flex flex-col justify-end transition-all duration-500 ease-in-out transform hover:scale-105"
               style={{ backgroundImage: `url(${why3})` }}
             >
               <h2 className="text-lg font-semibold">
@@ -29,7 +29,7 @@ const WhyTransita = () => {
               </p>
             </div>
             <div
-              className="h-64 bg-cover bg-center rounded-2xl text-white p-5 flex flex-col justify-end"
+              className="h-64 bg-cover bg-center rounded-2xl text-white p-5 flex flex-col justify-end transition-all duration-500 ease-in-out transform hover:scale-105"
               style={{ backgroundImage: `url(${why2})` }}
             >
               <h2 className="text-lg font-semibold">
@@ -44,7 +44,7 @@ const WhyTransita = () => {
 
           {/* Full Width Section */}
           <div
-            className="w-full h-64 md:h-80 bg-cover bg-center rounded-2xl text-white p-6 flex flex-col justify-end"
+            className="w-full h-64 md:h-80 bg-cover bg-center rounded-2xl text-white p-6 flex flex-col justify-end transition-all duration-500 ease-in-out transform hover:scale-105"
             style={{ backgroundImage: `url(${why4})` }}
           >
             <h2 className="text-xl font-semibold">Integrated experience</h2>
@@ -57,7 +57,7 @@ const WhyTransita = () => {
 
         {/* Right Column (1/3) */}
         <div
-          className="h-full bg-cover bg-center rounded-2xl text-white flex flex-col justify-end p-7"
+          className="h-full bg-cover bg-center rounded-2xl text-white flex flex-col justify-end p-7 transition-all duration-500 ease-in-out transform hover:scale-105"
           style={{ backgroundImage: `url(${why1})` }}
         >
           <h2 className="text-2xl font-bold">Simple, powerful experience</h2>
