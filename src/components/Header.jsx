@@ -25,9 +25,12 @@ const Header = () => {
               <li>Parking finder</li>
               <li>Transit options</li>
             </ul>
-            <button className="text-white bg-[#003366] py-1 px-5 rounded-lg cursor-pointer">
+            <a
+              className="text-white bg-[#003366] py-1 px-5 rounded-lg cursor-pointer"
+              href="/signup"
+            >
               Signup
-            </button>
+            </a>
           </div>
         </div>
         <div className="grid grid-cols-2 px-8 gap-1">

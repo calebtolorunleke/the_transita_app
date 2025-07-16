@@ -45,9 +45,12 @@ const Phoneheader = () => {
           transport alternative - curated to streamline your urban journey.
         </p>
         <div>
-          <button className="bg-[#003366] px-7 py-1 rounded-lg cursor-pointer">
+          <a
+            className="bg-[#003366] px-7 py-1 rounded-lg cursor-pointer"
+            href="/signup"
+          >
             Signup
-          </button>
+          </a>
         </div>
       </div>
     </main>
