@@ -57,7 +57,7 @@ const Signup = () => {
               />
             </span>
 
-            <button className="bg-[#003366] w-full mt-20 mb-5 py-4 text-white rounded-lg">
+            <button className="bg-[#003366] w-full mt-10 md:mt-20 mb-5 py-4 text-white rounded-lg">
               Continue
             </button>
           </form>
